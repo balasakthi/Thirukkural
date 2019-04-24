@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.akh.balasakthi.thirukural.misc.KuralDetailActivity">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/action_share"
+            android:icon="@drawable/ic_share"
+            android:orderInCategory="100"
+            android:title="share"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/action_favourite"
+            android:checkable="true"
+            android:icon="@drawable/ic_favorite_unchecked"
+            android:orderInCategory="100"
+            android:title="favourite"
+            app:showAsAction="always" />
+
+      <!--  <item
+            android:id="@+id/action_muva"
+            android:checked="true"
+            android:title="@string/commentary"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/action_manakudavar"
+            android:checked="true"
+            android:title="@string/manakudavar_text"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/action_alagar"
+            android:checked="true"
+            android:title="@string/alagar_text"
+            app:showAsAction="never"/> -->
+    </group>
+
+</menu>

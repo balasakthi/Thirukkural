@@ -1,0 +1,296 @@
+<resources>
+    <string name="app_name">Thirukkural</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <string name="lang_tamil">தமிழ்</string>
+    <string name="lang_english">English</string>
+    <string name="Section">Section</string>
+    <string name="part">Part</string>
+    <string name="chapter">Chapter</string>
+    <string name="couplet">Couplet</string>
+    <string name="commentary">Commentary</string>
+    <string name="favourites">Favourites</string>
+    <string name="favourite_added">Added to Favourites</string>
+    <string name="favourite_removed">Removed</string>
+    <string name="favourite_removed_single">Removed from Favourites</string>
+    <string name="favourite_empty">Nothing in Favourites</string>
+    <string name="favourite_remove_title">Remove Favourites?</string>
+    <string name="favourite_remove_msg">All the favourite couplets will be removed.</string>
+    <string name="undo">UNDO</string>
+    <string name="search">Search the Couplets</string>
+    <string name="no_search_result">No Search Results Found</string>
+    <string name="no_search_subresult">Please check that you have the correct spelling \nor try a different keyword</string>
+    <string name="search_result">Results</string>
+    <string name="introduction">Introduction</string>
+    <string name="booktitle">Statements Devoid of Untruth</string>
+    <string name="others">Others</string>
+    <string name="yes">Ok</string>
+    <string name="no">Cancel</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <!-- Sections -->
+    <string name="navigation_virtue">Virtue</string>
+    <string name="navigation_wealth">Wealth</string>
+    <string name="navigation_love">Love</string>
+
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Virtue</item>
+        <item>Wealth</item>
+        <item>Love</item>
+    </string-array>
+
+
+    <!-- Chapter Group 1 -->
+    <string name="tab_introduction">Prologue</string>
+    <string name="tab_domestic_virtue">Domestic Virtue</string>
+    <string name="tab_ascetic_virtue">Ascetic Virtue</string>
+    <string name="tab_fate">Fate</string>
+
+    <!-- Chapter Group 2-->
+    <string name="tab_royalty">Royalty</string>
+    <string name="tab_ministers_of_state">Ministers of State</string>
+    <string name="tab_the_essentials_of_a_state">The Essentials of a State</string>
+    <string name="tab_way_of_making_wealth">Way of Making Wealth</string>
+    <string name="tab_excellence_of_an_army">The Excellence of an Army</string>
+    <string name="tab_friendship">Friendship</string>
+    <string name="tab_miscellaneous">Miscellaneous</string>
+
+    <!-- Chapter Group 3 -->
+    <string name="tab_the_premarital_love">The Pre-marital love</string>
+    <string name="tab_the_postmarital_love">The Post-marital love</string>
+
+    <!-- Chapters of Prologue -->
+    <string-array name="chapter_prologue_titles">
+        <item>The Praise of God</item>
+        <item>The Excellence of Rain</item>
+        <item>The Greatness of Ascetics</item>
+        <item>Assertion of the Strength of Virtue</item>
+    </string-array>
+
+    <!-- Chapters of Domestic virtue -->
+    <string-array name="chapter_domestic_titles">
+        <item>Domestic Life</item>
+        <item>The Goodness of the Help to Domestic Life</item>
+        <item>The Obtaining of Sons</item>
+        <item>The Possession of Love</item>
+        <item>Cherishing Guests</item>
+        <item>The Utterance of Pleasant Words</item>
+        <item>The Knowledge of Benefits Conferred: Gratitude</item>
+        <item>Impartiality</item>
+        <item>The Possession of Self-restraint</item>
+        <item>The Possession of Decorum</item>
+        <item>Not coveting another\'s Wife</item>
+        <item>The Possession of Patience, Forbearance</item>
+        <item>Not Envying</item>
+        <item>Not Coveting</item>
+        <item>Not Backbiting</item>
+        <item>The Not Speaking Profitless Words</item>
+        <item>Dread of Evil Deeds</item>
+        <item>The knowledge of what is Befitting a Man\'s Position</item>
+        <item>Giving</item>
+        <item>Renown</item>
+    </string-array>
+
+    <!-- Chapters of Ascetic virtue -->
+    <string-array name="chapter_ascetic_titles">
+        <item>The Possession of Benevolence</item>
+        <item>The Renunciation of Flesh</item>
+        <item>Penance</item>
+        <item>Inconsistent Conduct</item>
+        <item>The Absence of Fraud</item>
+        <item>Veracity</item>
+        <item>The not being Angry</item>
+        <item>Not doing Evil</item>
+        <item>Not killing</item>
+        <item>Instability</item>
+        <item>Renunciation</item>
+        <item>Knowledge of the True</item>
+        <item>The Extirpation of Desire</item>
+    </string-array>
+
+    <!-- Chapters of Fate -->
+    <string-array name="chapter_fate_titles">
+        <item>Fate</item>
+    </string-array>
+
+    <!-- Chapters of Royalty -->
+    <string-array name="chapter_royalty_titles">
+        <item>The Greatness of a King</item>
+        <item>Learning</item>
+        <item>Ignorance</item>
+        <item>Hearing</item>
+        <item>The Possession of Knowledge</item>
+        <item>The Correction of Faults</item>
+        <item>Seeking the Aid of Great Men</item>
+        <item>Avoiding mean Associations</item>
+        <item>Acting after due Consideration</item>
+        <item>The Knowledge of Power</item>
+        <item>Knowing the fitting Time</item>
+        <item>Knowing the Place</item>
+        <item>Selection and Confidence</item>
+        <item>Selection and Employment</item>
+        <item>Cherishing one\'s Kindred</item>
+        <item>Unforgetfulness</item>
+        <item>The Right Sceptre</item>
+        <item>The Cruel Sceptre</item>
+        <item>Absence of Terrorism</item>
+        <item>Benignity</item>
+        <item>Detectives</item>
+        <item>Energy</item>
+        <item>Unsluggishness</item>
+        <item>Manly Effort</item>
+        <item>Hopefulness in Trouble</item>
+    </string-array>
+
+    <!-- Chapters of Ministers of State-->
+    <string-array name="chapter_ministersofstate_titles">
+        <item>The Office of Minister of state</item>
+        <item>Power in Speech</item>
+        <item>Purity in Action</item>
+        <item>Power in Action</item>
+        <item>Modes of Action</item>
+        <item>The Envoy</item>
+        <item>Conduct in the Presence of the King</item>
+        <item>The Knowledge of Indications</item>
+        <item>The Knowledge of the Council Chamber</item>
+        <item>Not to dread the council</item>
+    </string-array>
+
+    <!-- Chapters of The Essentials of a State-->
+    <string-array name="chapter_theessentialsofastate_titles">
+        <item>The Land</item>
+        <item>The Fortification</item>
+    </string-array>
+
+    <!-- Chapters of Way of Making Wealth-->
+    <string-array name="chapter_wayofmakingwealth_titles">
+        <item>Way of Accumulating Wealth</item>
+    </string-array>
+
+    <!-- Chapters of The Excellence of an Army-->
+    <string-array name="chapter_theexcellenceofanarmy_titles">
+        <item>The Excellence of an Army</item>
+        <item>Military Spirit</item>
+    </string-array>
+
+    <!-- Chapters of Friendship-->
+    <string-array name="chapter_friendship_titles">
+        <item>Friendship</item>
+        <item>Investigation in forming Friendships</item>
+        <item>Familiarity</item>
+        <item>Evil Friendship</item>
+        <item>Unreal Friendship</item>
+        <item>Folly</item>
+        <item>Ignorance</item>
+        <item>Hostility</item>
+        <item>The Might of Hatred</item>
+        <item>Knowing the Quality of Hate</item>
+        <item>Enmity within</item>
+        <item>Not Offending the Great</item>
+        <item>Being led by Women</item>
+        <item>Wanton Women</item>
+        <item>Not Drinking Palm-Wine</item>
+        <item>Gaming (Gambling)</item>
+        <item>Medicine</item>
+    </string-array>
+
+    <!-- Chapters of Miscellaneous-->
+    <string-array name="chapter_miscellaneous_titles">
+        <item>Nobility</item>
+        <item>Honour</item>
+        <item>Greatness</item>
+        <item>Perfectness</item>
+        <item>Courtesy</item>
+        <item>Wealth without Benefaction</item>
+        <item>Shame</item>
+        <item>The Way of Maintaining the Family</item>
+        <item>Agriculture</item>
+        <item>Poverty</item>
+        <item>Mendicancy</item>
+        <item>The Dread of Mendicancy</item>
+        <item>Baseness</item>
+    </string-array>
+
+    <!-- Chapters of The Premarital Love-->
+    <string-array name="chapter_thepremaritallove_titles">
+        <item>Mental Distrubances caused by the Beauty of the Princess</item>
+        <item>Recognition of the Signs (of Mutual Love)</item>
+        <item>Rejoicing in the Embrace</item>
+        <item>The Praise of her Beauty</item>
+        <item>Declaration of Love\'s special Excellence</item>
+        <item>The Abandonment of Reserve</item>
+        <item>The Announcement of the Rumour</item>
+    </string-array>
+
+    <!-- Chapters of The postmarital Love-->
+    <string-array name="chapter_thepostmaritallove_titles">
+        <item>Separation unendurable</item>
+        <item>Complainings</item>
+        <item>Eyes consumed with Grief</item>
+        <item>The Pallid Hue</item>
+        <item>The Solitary Anguish</item>
+        <item>Sad Memories</item>
+        <item>The Visions of the Night</item>
+        <item>Lamentations at Eventide</item>
+        <item>Wasting Away</item>
+        <item>Soliloquy</item>
+        <item>Reserve Overcome</item>
+        <item>Mutual Desire</item>
+        <item>The Reading of the Signs</item>
+        <item>Desire of Reunion</item>
+        <item>Exposutulation with Oneself</item>
+        <item>Pouting</item>
+        <item>Feigned Anger</item>
+        <item>The Pleasures of Temporary Variance</item>
+    </string-array>
+    <!--<string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_kural_detail">KuralDetailActivity</string>
+    <string name="title_activity_kural_search">KuralSearchActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>-->
+
+    <string name="title_activity_introduction">An Introduction</string>
+
+    <string name="alagar_text">பரிமேலழகர் உரை</string>
+    <string name="alagar_commentary">பரிமேலழகர் உரை விளக்கம்</string>
+    <string name="alagar_chapter_intro">பரிமேலழகர் அதிகார முன்னுரை</string>
+    <string name="manakudavar_text">மணக்குடவர் உரை</string>
+    <string name="intro_text"><![CDATA[<p>The <strong>Thirukkural</strong>, is a classic Tamilsangam literature consisting of 1330 couplets or kurals, dealing with the everyday virtues of an individual. Considered one of the greatest works ever written on ethics and morality, chiefly secular ethics, it is known for its universality and non-denominational nature. It was authored by Valluvar, also known as Thiruvalluvar.</p>
+<p>Considered as chef d\'oeuvre of both Indian and world literature, the <em>Tirukkural</em> is one of the most important works in the Tamil language. This is reflected in some of the other names by which the text is given by, such as <em>Tamiḻ maṟai</em> (Tamil veda), <em>Poyyāmoḻi</em> (words that never fail), and <em>Deyva (Deiva) nūl</em> (divine text). Translated into at least 82 languages (as of 2014), Tirukkural is one of the most widely translated non-religious works in the world. The work is dated to sometime between the third and first centuries BCE and is considered to precede <em>Silappatikaram</em> (1st century CE) and <em>Manimekalai</em> (between 1st and 5th centuries CE), since they both acknowledge the Kural text.</p>
+<h4>Structure of the book</h4>
+<p>The word Thirukkural is a combination of two Tamil words &ldquo;Thiru&rdquo; and &ldquo;kural&rdquo;. The word Thiru means beautiful or auspicious. The word &ldquo;kural&rdquo; means short poem consisting of two lines, a couplet. The Tirukkural is structured into 133 chapters, each containing 10 couplets (or kurals), for a total of 1,330 couplets. The 133 chapters are grouped into three sections, or "books":</p>
+<p><em>&bull; Book I: (அறத்துப்பால், Aṟattuppāl)&nbsp;(Dharma) dealing with virtue (Chapters 1-38)</em><br /><em>&bull; Book II: (பொருட்பால், Poruṭpāl) (Artha) dealing with wealth or polity (Chapters 39-108)</em><br /><em>&bull; Book III: (காமத்துப்பால், Kāmattuppāl) (Kama) dealing with love (Chapters 109-133)</em></p>
+<p>Each <em>kural</em> or couplet contains exactly seven words, known as <em>cir</em>s, with four <em>cir</em>s on the first line and three on the second. A <em>cir</em> is a single or a combination of more than one Tamil word. For example, <em>Thirukkural</em> is a <em>cir</em> formed by combining the two words <em>thiru</em> and <em>kuṛaḷ</em>. The section on virtue (aram) contains 380 verses, wealth (porul) has 700 and love (inbam) has 250.</p>
+<p>The overall organisation of the Kural text is based on seven ideals prescribed for a commoner besides observations of love.</p>
+<p><em>&bull; 40 couplets on God, rain, ascetics, and virtue</em><br /><em>&bull; 200 couplets on domestic virtue</em><br /><em>&bull; 140 couplets on higher yet most fundamental virtue based on grace, benevolence and compassion</em><br /><em>&bull; 250 couplets on royalty</em><br /><em>&bull; 100 couplets on ministers of state</em><br /><em>&bull; 220 couplets on essential requirements of administration</em><br /><em>&bull; 130 couplets on morality, both positive and negative</em><br /><em>&bull; 250 couplets on human love and passion</em></p>
+<h4>Tone of the book</h4>
+<p>Written on the basis of secular ethics, Tirukkural expounds a secular, moral and practical attitude towards life. Unlike religious scriptures, Tirukkural refrains from talking of hopes and promises of the other-worldly life. Rather it speaks of the ways of cultivating one\'s mind to achieve the other-worldly bliss in the present life itself. By occasionally referring to bliss beyond the worldly life, Valluvar equates what can be achieved in humanly life with what may be attained thereafter. Only in a couple of introductory chapters (Chapters 1 and 3) does Valluvar sound religious. Even here, he maintains a tone that could be acceptable to people of all faiths.</p>
+<p>It is believed that Valluvar composed every chapter in response to a request to produce ten best couplets on a particular subject. Nevertheless, he seldom shows any concern as to what similes and superlatives he used earlier while writing on other subjects, purposely allowing for some repetition and mild contradictions in ideas one can find in the Kural text. Despite knowing its seemingly contradictory nature from a purist point of view, Valluvar employs this method to emphasise the importance of the given code of ethic. Following are some of the instances where Valluvar employs contradictions to expound the virtues.</p>
+<p><em>&bull; While in Chapter 93 Valluvar writes on the evils of intoxication, in Chapter 109 he uses the same to show the sweetness of love by saying love is sweeter than wine.</em><br /><em>&bull; To the question \'What is wealth of all wealth?\' Valluvar points out to two different things, namely, grace (Kural 241) and hearing (Kural 411).</em><br /><em>&bull; In regard to the virtues one should follow dearly even at the expense of other virtues, Valluvar points to veracity (Kural 297), not coveting another\'s wife (Kural 150), and not being called a slanderer (Kural 181). In essence, however, in Chapter 33 he crowns non-killing as the foremost of all virtues, pushing even the virtue of veracity to the second place (Kural 323).</em><br /><em>&bull; Whereas he says that one can eject what is natural or inborn in him (Kural 376), he indicates that one can overcome the inherent natural flaws by getting rid of laziness (Kural 609).</em><br /><em>&bull; While in Chapter 7 he asserts that the greatest gain men can obtain is by their learned children (Kural 61), in Chapter 13 he says that it is that which is obtained by self-control (Kural 122).</em></p>
+<h4>Etymology</h4>
+<p>Tirukkural was originally known as \'Muppaal\', meaning three-sectioned book, as referred to by its author himself, since it contained three sections, viz., \'Aram\', \'Porul\' and \'Inbam\'. The word <em>Kural</em> applies in general to something that is short or abridged. More specifically, it is a very short Tamil poetic form consisting of two lines, the first line consisting of four words (known as <em>cir</em>s) and the second line consisting of three, which should also conform to the grammar of <em>Venpa</em>, and is one of the most important forms of classical Tamil language poetry. <em>Thiru</em> is a term denoting divine respect, literally meaning \'holy\' or \'sacred\'. Since the work was written in this poetic form, it came to be known as \'Tirukkural\', meaning \'sacred couplets\'.</p>
+<h4>Other names</h4>
+<p>Originally mentioned as \'Muppaal\' by its author, Tirukkural has been known by many names in various literature works:</p>
+<p><em>&bull; முப்பால் (Muppāl) &ndash; "The Three-Chaptered" or "The Three-Sectioned" (Original name given by Thiruvalluvar)</em><br /><em>&bull; பொய்யாமொழி (Poyyāmoḻi) &ndash; "Statements Devoid of Untruth"</em><br /><em>&bull; உத்தரவேதம் (Uttharavedham) &ndash; "Northern Veda"</em><br /><em>&bull; வாயுறை வாழ்த்து (Vāyurai Vāḻttu) &ndash; "Truthful Utterances"</em><br /><em>&bull; தெய்வநூல் (Teyvanūl) &ndash; "The Holy Book"</em><br /><em>&bull; பொதுமறை (Potumaṟai) &ndash; "The Universal Veda" or "Book for All"</em><br /><em>&bull; தமிழ்மறை (Tamiḻ Maṟai) &ndash; "The Tamil Veda"</em><br /><em>&bull; முப்பானூல் (Muppāṉūl) &ndash; "The Three-Sectioned Book"</em><br /><em>&bull; ஈரடி நூல் (Iradi ṉūl) &ndash; "The Two-Lined Book"</em><br /><em>&bull; திருவள்ளுவம் (Thiruvalluvam) &ndash; "Thiruvalluvarism" or "The Work of Thiruvalluvar"</em></p>
+<h4>Author</h4>
+<p>There are claims and counter claims as to the authorship of the book and to the exact number of couplets written by Thiruvalluvar. The first instance of the author\'s name mentioned as Thiruvalluvar is found to be several centuries later in a song of praise called the <em>Garland of Thiruvalluvar</em> in Thiruvalluva Malai. Just as the book remained unnamed at the time of its presentation at the court of the ruler, the author too did not name himself in the writing of the book. Over the centuries that followed, people started calling the work "Tirukkural" and its author as "Thiruvalluvar". Monsieur Ariel, who translated the Krual text into French, thus called it "the book without a name by an author without a name."</p>
+<p>The time of Thiruvalluvar continues to remain a subject of intense debate. Valluvar is thought to have lived sometime between the 4th century BCE and the 1st century BCE.The Tamil poet Mamulanar of the Sangam period mentioned that Thiruvalluvar was the greatest Tamil scholar, contemporarily mentioning the Nanda Dynasty of northern region of India, which ruled during the 4th century BCE, lasting between 345 and 321 BCE. This estimate is based on linguistic analysis of his writings. However, there is no historical evidence for when and where he lived. With the exact date still under debate, taking the latest of the estimated dates, the Tamil Nadu government is using 31 BC as the year of Valluvar.</p>
+<p>Thiruvalluvar is thought to have belonged to either Jainism or Hinduism. This can be observed in his treatment of the concept of ahimsa or non-violence, which is the principal concept of both the religions. Valluvar\'s treatment of the chapters on vegetarianism and non-killing reflects the Jain precepts, where these are stringently enforced. The three parts that the Tirukkural is divided into, namely, <em>aram</em> (virtue), <em>porul</em> (wealth) and <em>inbam</em> (love), aiming at attaining <em>veedu</em> (ultimate salvation), follow, respectively, the four foundations of Hinduism, namely, dharma, artha, kama and moksha. His mentioning of God Vishnu in couplets 610 and 1103 and Goddess Lakshmi in couplets 167, 408, 519, 565, 568, 616, and 617 suggests the Vaishnavite beliefs of Valluvar. Other eastern beliefs of Valluvar found in the book include previous birth and re-birth, seven births, and some ancient Indian astrological concepts, among others. Despite using these contemporary religious concepts of his time, Valluvar has limited the usage of these terms to a metaphorical sense to explicate the fundamental virtues and ethics, without enforcing any of these religious beliefs in practice. This, chiefly, has made the treatise earn the title <em>Ulaga Podhu Marai</em> (the universal scripture).</p>
+<p>There is also the recent claim by Kanyakumari Historical and Cultural Research Centre (KHCRC) that Valluvar was a king who ruled Valluvanadu in the hilly tracts of the Kanyakumari district of Tamil Nadu.</p>
+<h4>Memorials</h4>
+<p>To honor the Kural literature and its author, a monument named Valluvar Kottam was constructed in Chennai in 1976. The chief element of the monument includes a 39-m-high chariot, a replica of the chariot in the temple town of Thiruvarur, and it contains a life-size statue of Thiruvalluvar. All 133 chapters and 1330 verses of the Kural text are inscribed on bas-relief in the corridors in the main hall.</p>
+<p>To honor Thiruvalluvar, a 133-feet (40.6&nbsp;m) statue, sculpted in stone, was erected in 2000 atop a small island near the town of Kanyakumari on the southernmost tip of the Indian peninsula, where two seas and an ocean, viz., the Bay of Bengal, the Arabian Sea, and the Indian Ocean meet.</p>]]></string>
+
+
+</resources>

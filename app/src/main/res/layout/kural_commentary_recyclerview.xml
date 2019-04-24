@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:orientation="vertical"
+                    android:padding="@dimen/default_spacing">
+
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="84dp"
+                        android:layout_height="84dp"
+                        app:srcCompat="@drawable/icon_rect" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/default_spacing"
+                    android:paddingRight="@dimen/default_spacing"
+                    android:paddingTop="@dimen/default_spacing">
+
+                    <TextView
+                        android:id="@+id/kuralSectionView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Section"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/view7"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/colorButtonNormal" />
+
+                    <TextView
+                        android:id="@+id/kuralPartView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="3dp"
+                        android:text="Part"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/kuralChapterView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:lineSpacingExtra="4sp"
+                        android:paddingTop="3dp"
+                        android:text="Chapter"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kuralLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/default_spacing"
+                android:paddingLeft="@dimen/default_spacing"
+                android:paddingRight="@dimen/default_spacing">
+
+                <TextView
+                    android:id="@+id/kuralView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:lineSpacingExtra="8sp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="TextView"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/muvaLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/default_spacing"
+                android:paddingLeft="@dimen/default_spacing"
+                android:paddingRight="@dimen/default_spacing">
+
+                <TextView
+                    android:id="@+id/commentaryTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/commentary"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="?attr/colorButtonNormal" />
+
+                <TextView
+                    android:id="@+id/commentaryView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:lineSpacingExtra="8sp"
+                    android:paddingTop="@dimen/default_spacing"
+                    android:text="TextView"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/manakudavarLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/default_spacing"
+                android:paddingLeft="@dimen/default_spacing"
+                android:paddingRight="@dimen/default_spacing">
+
+                <TextView
+                    android:id="@+id/manakudavarCommentaryTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/manakudavar_text"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="?attr/colorButtonNormal" />
+
+                <TextView
+                    android:id="@+id/manakudavarCommentaryView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:lineSpacingExtra="8sp"
+                    android:paddingTop="@dimen/default_spacing"
+                    android:text="TextView"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/alagarIntroLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/default_spacing"
+                android:paddingLeft="@dimen/default_spacing"
+                android:paddingRight="@dimen/default_spacing">
+
+                <TextView
+                    android:id="@+id/alagarIntroTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/alagar_chapter_intro"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="?attr/colorButtonNormal" />
+
+                <TextView
+                    android:id="@+id/alagarChapterIntroView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:lineSpacingExtra="8sp"
+                    android:paddingTop="@dimen/default_spacing"
+                    android:text="TextView"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/alagarLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/default_spacing"
+                android:paddingLeft="@dimen/default_spacing"
+                android:paddingRight="@dimen/default_spacing">
+
+
+                <TextView
+                    android:id="@+id/alagarKuralTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/alagar_text"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <View
+                    android:id="@+id/view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="?attr/colorButtonNormal" />
+
+                <TextView
+                    android:id="@+id/alagarKuralView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:lineSpacingExtra="8sp"
+                    android:paddingTop="@dimen/default_spacing"
+                    android:text="TextView"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/alagarCommentaryTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="@dimen/default_spacing"
+                    android:text="@string/alagar_commentary"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="?attr/colorButtonNormal" />
+
+                <TextView
+                    android:id="@+id/alagarCommentryView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:elevation="19dp"
+                    android:lineSpacingExtra="8sp"
+                    android:paddingTop="@dimen/default_spacing"
+                    android:text="TextView"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
